@@ -1,0 +1,7 @@
+com\whj\ct\producer\Bootstrap.class
+com\whj\ct\producer\bean\Calllog.class
+com\whj\ct\producer\bean\LocalFileProducer.class
+com\whj\ct\producer\Test.class
+com\whj\ct\producer\bean\Contact.class
+com\whj\ct\producer\io\LocalFileDataOut.class
+com\whj\ct\producer\io\LocalFileDataIn.class

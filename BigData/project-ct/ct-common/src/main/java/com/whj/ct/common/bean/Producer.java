@@ -2,6 +2,7 @@ package com.whj.ct.common.bean;
 
 import java.io.Closeable;
 import java.io.IOException;
+import java.text.ParseException;
 
 /**
 * Description:
@@ -14,5 +15,5 @@ public interface Producer extends Closeable {
     public void setIn(DataIn in);
     public void setOut(DataOut out);
 //    生产数据
-    public void produce() throws IOException, InstantiationException, IllegalAccessException;
+    public void produce() throws IOException, InstantiationException, IllegalAccessException, ParseException, InterruptedException;
 }

@@ -9,7 +9,12 @@ import com.whj.ct.common.bean.Val;
 */
 
 public enum Names implements Val {
-    NAMESPACE("ct");
+    NAMESPACE("ct"),
+    TOPIC("ct"),
+    TABLE("ct:calllog"),
+    CF_CALLER("caller"),
+    CF_CALLEE("callee"),
+    CF_INFO("info");
 
     private String name;
 
@@ -24,7 +29,7 @@ public enum Names implements Val {
     }
 
     @Override
-    public Object getValue() {
-        return null;
+    public String getValue() {
+        return name;
     }
 }
